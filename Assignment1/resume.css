@@ -1,0 +1,41 @@
+
+div {MARGIN-RIGHT: auto; MARGIN-LEFT: auto; }
+h1 {text-align: center;}
+.title{background-color: #ccc;}
+.category{font-weight: bold;}
+*[male] {color: blue;}
+*[female] {color: red;}
+.content a:link {color: #0000FF;}
+.content a:visited {color:  #0000FF;}
+.content a:hover {color: #FF0000;}
+#banner {
+	position: relative; 
+	width: 600px;
+	height: 56px;
+	background-color: #ccc;
+	margin: 0 auto; 
+}
+#banner ul{
+	list-style-type: none;
+}
+#banner ul li { 
+float: left 
+position: relative; 
+} 
+
+
+
+/*#banner ul li ul{
+	display: none;
+}
+#banner ul li:hover ul{
+	display: block;
+	position: absolute;
+}*/
+.banner ul{
+	display: none;
+}
+.banner :hover ul{
+	display: block;
+	position: absolute; 
+}
