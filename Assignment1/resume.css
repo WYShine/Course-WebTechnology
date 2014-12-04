@@ -22,38 +22,51 @@ h1 {text-align: center;}
 
 }
 
+
+
 #banner {
 	position: relative; 
-	width: 600px;
-	height: 56px;
+	width: 768px;
+	height: 30px;
 	background-color: #ccc;
 	margin: 0 auto; 
+	margin-bottom: 30px;
 }
+
+#banner a{
+	text-decoration: none;
+}
+
 #banner ul{
 	list-style-type: none;
 
 }
+
 #banner ul li { 
-float: left 
-position: relative; 
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+	display: inline; 
 } 
-#hah ul{
-	display: none;
+
+#banner ul li ul{
+
+	width: 150px;
+	background-color: #ccc;
+
+	margin-left: 50px;
 }
+
+#banner ul li ul li{
+	font-weight: bold;
+	font-style: normal;
+	font-size: 15px;
+	display: block;
+}
+
 li:hover ul{display: block;}
 
 
-/*#banner ul li ul{
-	display: none;
-}
-#banner ul li:hover ul{
-	display: block;
-	position: absolute;
-}*/
 .banner ul{
 	display: none;
-}
-.banner :hover ul{
-	display: block;
-	position: absolute; 
 }
